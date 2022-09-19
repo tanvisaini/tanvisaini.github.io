@@ -1,0 +1,28 @@
+ul li{
+    display: inline;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    position: relative;
+    padding: 10px;
+}
+
+.headerText{
+    position: absolute;
+    top: 65%;
+    right: 40%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+p{
+    font-size: 19px;
+}
