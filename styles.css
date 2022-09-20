@@ -10,6 +10,10 @@ li a{
     color: black;
 }
 
+li a:hover{
+    color: green;
+}
+
 .header{
     position: relative;
     padding: 10px;
@@ -25,4 +29,41 @@ li a{
 
 p{
     font-size: 19px;
+}
+
+/* Ways of Seeing */
+.inFrames{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.women{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.frameSetup{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    margin: 10px;
+    width: 35%;
+    align-self: start;
+}
+
+.femaleArtist{
+    width: 25%;
+}
+
+.femaleArtist:hover{
+    width: 40%;
+    border-style:solid;
+    border-color: currentColor;
+}
+.touched:hover{
+    padding: 50px;
 }
