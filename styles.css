@@ -1,3 +1,13 @@
+*{
+    /* background-color: #f0ede1; */
+    /* background-image: url(assests/Juxtapoz\ Magazine\ -\ Everyday\ Drawings\ by\ Janice\ Wu.jpg); */
+}
+
+@font-face {
+    font-family: "Nav";
+    src: url(assests/Mogen-Bold.ttf);
+}
+
 ul li{
     display: inline;
     align-items: center;
@@ -14,21 +24,53 @@ li a:hover{
     color: green;
 }
 
+p{
+    font-size: 19px;
+}
+
+/* Home Page */
+.title{
+    font-family: "Nav";
+}
+
+.folder1{
+    text-align: center;
+    font-family: "Nav";
+}
+
+.folder2{
+    text-align: center;
+    font-family: "Nav";
+}
+
+/* responses */
+.top{
+    display: flex;
+}
+
+.header2 ul li{
+    display: block;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+.lips{
+    margin: 10px;
+}
+
 .header{
     position: relative;
-    padding: 10px;
 }
 
 .headerText{
     position: absolute;
     top: 65%;
-    right: 40%;
+    right: 50%;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-}
-
-p{
-    font-size: 19px;
+    font-size: 16px;
+    background: none;
 }
 
 /* Ways of Seeing */
@@ -39,31 +81,46 @@ p{
 }
 
 .women{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
 }
 
 .frameSetup{
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
 
-img{
-    margin: 10px;
-    width: 35%;
-    align-self: start;
-}
-
 .femaleArtist{
     width: 25%;
+    margin: 10px;
 }
 
-.femaleArtist:hover{
+.maleArtist{
+    size-adjust: none;
+    width: 45%;
+}
+
+/* .femaleArtist:hover{
     width: 40%;
     border-style:solid;
     border-color: currentColor;
+} */
+
+/* Personal Effects */
+.peopleimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.touched:hover{
-    padding: 50px;
+
+#button{
+    background-color: white;
+    border: none;
+}
+
+#quote{
+    font-size: 22px;
+    text-align: center;
 }
