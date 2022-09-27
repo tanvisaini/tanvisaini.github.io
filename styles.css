@@ -6,6 +6,12 @@
 @font-face {
     font-family: "Nav";
     src: url(assests/Mogen-Bold.ttf);
+    font-weight: light;
+}
+
+@font-face {
+    font-family: "title";
+    src: url(assests/DS-DIGII.TTF);
 }
 
 ul li{
@@ -30,12 +36,13 @@ p{
 
 /* Home Page */
 .title{
-    font-family: "Nav";
+    font-family: "title";
 }
 
 .folder1{
     text-align: center;
     font-family: "Nav";
+    text-decoration: none;
 }
 
 .folder2{
@@ -102,17 +109,28 @@ p{
     width: 45%;
 }
 
-/* .femaleArtist:hover{
-    width: 40%;
-    border-style:solid;
-    border-color: currentColor;
-} */
-
 /* Personal Effects */
+@font-face {
+    font-family: "script";
+    src: url(assests/iknowaghost.ttf);
+}
+
+
 .peopleimg{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#personal{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.everything{
+    display:flex;
+    justify-content: center;
 }
 
 #button{
@@ -121,6 +139,8 @@ p{
 }
 
 #quote{
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
+    padding: 400px 10px 400px 10px;
+    font-family: "script";
 }
