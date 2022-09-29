@@ -17,3 +17,17 @@ function displayQuote(){
         count = 0;
     }
 }
+
+// Peotry of Proximity 
+var space = document.getElementById("space");
+var proximityButton = document.getElementById("proximityButton");
+var stanza = document.getElementById("stanza");
+
+proximityButton.addEventListener("click", displaySpace);
+
+function Space(){
+    stanza.style.paddingLeft = space;
+}
+
+
+

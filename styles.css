@@ -144,3 +144,45 @@ p{
     padding: 400px 10px 400px 10px;
     font-family: "script";
 }
+
+/* A Poetry of Proximity  */
+.proximityBackground{
+    background-image: url(assests/flower.jpg);
+    /* background-size: cover; */
+
+}
+#PandD{
+    display:flex; 
+    justify-content: center;
+}
+
+.political{
+    color: #b7410e;
+}
+
+.section1{
+    border-radius: 25px;
+    padding:5px;
+    background-color: antiquewhite;
+}
+
+.section2{
+    border-radius: 25px;
+    padding:5px;
+    background-color: #e2b39e;
+}
+
+.section2:hover{
+    margin-left: 300px;
+}
+
+.stanza{
+    border-style: groove;
+    border: 3px;
+}
+
+.stanza:hover{
+    text-align: right;
+    display: block;
+
+}
