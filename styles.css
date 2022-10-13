@@ -148,8 +148,6 @@ p{
 /* A Poetry of Proximity  */
 .proximityBackground{
     background-image: url(assests/flower.jpg);
-    /* background-size: cover; */
-
 }
 #PandD{
     display:flex; 
