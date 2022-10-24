@@ -1,0 +1,105 @@
+body{
+    background-image: url("/assests/poolTable.jpg");
+}
+
+@font-face{
+    src: url(/assests/arcade_classic_2/ARCADECLASSIC.TTF);
+    font-family: "arcade";
+}
+
+.arcade{
+    font-family: "arcade";
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+}
+
+.poolBall{
+    transition: rotate 3s; 
+    display: block;
+    left: 25%;
+    position: relative;
+    animation: move 7s infinite;
+}
+
+.poolBall2{
+    transition: rotate 3s;
+    display: block;
+    left: 25%;
+    position: relative;
+    animation: move2 7s infinite;
+}
+
+.poolBall3{
+    transition: rotate 3s;
+    display: block;
+    left: 25%;
+    position: relative;
+    animation: move3 10s infinite;
+}
+
+.poolBall4{
+    transition: rotate 3s;
+    display: block;
+    left: 25%;
+    position: relative;
+    animation: move4 7s infinite;
+}
+
+.poolBall:hover{
+    rotate: 180deg;
+}
+
+.poolBall2:hover{
+    rotate: 180deg;
+}
+
+.poolBall3:hover{
+    rotate: 180deg;
+}
+
+.poolBall4:hover{
+    rotate: 180deg;
+}
+
+@keyframes move{
+    from{
+        top:200px;
+    }
+    to{
+        top:300px;
+        left:100px;
+    }
+}
+
+@keyframes move2{
+    from{
+        top:400px
+    }
+    to{
+        top:40px;
+        left: 1000px;
+    }
+}
+
+@keyframes move3{
+    from{
+        left: 800px;
+        top: 300px;
+    }
+    to{
+        left: 300px;
+        top: 60px;
+    }
+}
+
+@keyframes move4{
+    from{
+        left: 800px;
+    }
+    to{
+        top: 300px;
+        left: 300px;
+    }
+}
+

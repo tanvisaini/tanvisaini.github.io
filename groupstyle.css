@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-image: url("mount_rushmore.jpg");
   }
   
   @font-face {
@@ -35,5 +36,8 @@ html, body {
   }
   
   
-  * {box-sizing:border-box}
+  * {
+      box-sizing:border-box;
+      /* background-image: url("mount_rushmore.jpg"); */
+}
   
