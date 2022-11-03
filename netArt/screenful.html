@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="screenfull.css">
+    <title> T's Web Dev </title>
+</head>
+
+<body>
+
+<img class="header" src="internet_explorer_4.png">
+
+<h1 class="title"> Screenfull Screenfull Screenfull Screenfull Screenfull </h1>
+
+
+<p class="right"> “SCREENFULL STILL REMINDS ME OF THAT ERA OF THE INTERNET; MYSPACE, FILE SHARING, RSS FEEDS, AND THE FIRST FEW TIMES I DID A GOOGLE IMAGE SEARCH—A SENSE OF ENDLESS MEDIA SCROLLING, LOOPING, POPPING UP, AUTO PLAYING, CRASHING.”
+    —RICK SILVA (ABE LINKOLN) </p>
+
+
+<div class="left">
+    <iframe src="https://giphy.com/embed/lvQe7YwEEJoaIluvs6" width="150" frameBorder="0"></iframe>
+    <iframe src="https://giphy.com/embed/lvQe7YwEEJoaIluvs6" width="150" frameBorder="0" ></iframe>
+    <iframe src="https://giphy.com/embed/lvQe7YwEEJoaIluvs6" width="150" frameBorder="0"></iframe>
+    <iframe src="https://giphy.com/embed/lvQe7YwEEJoaIluvs6" width="150" frameBorder="0"></iframe>
+    <iframe src="https://giphy.com/embed/lvQe7YwEEJoaIluvs6" width="150" frameBorder="0"></iframe>
+    <iframe src="https://giphy.com/embed/lvQe7YwEEJoaIluvs6" width="150" frameBorder="0" ></iframe>
+    <iframe src="https://giphy.com/embed/lvQe7YwEEJoaIluvs6" width="150"frameBorder="0" ></iframe>
+</div>
+
+<button> HELLO </button>
+
+
+<img name="slide" width="100%" height="100%" >
+
+<script> 
+    alert("Adobe Flash Player is too-up-to-date. The version of this plug-in on your computer includes too many features that cannot be used on this website. Please delete until Web2.0 and refresh the website. Thank you. ");
+
+    var i = 0; 			// Start Point
+    var images = [];	// Images Array
+    var time = 2000;	// Time Between Switch
+        
+    // Image List
+    images[0] = "dian1.png";
+    images[1] = "dian2.png";
+    images[2] = "milkbottle.png";
+    images[3] = "p5.png";
+    images[4] = "p6.png";
+    images[5] = "p7.png";
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Back To O
+		i = 0;
+	}
+
+  
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+</script>
+
+
+</body>
+</html>

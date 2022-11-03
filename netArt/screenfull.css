@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+}
+
+@font-face{
+    src:url(Faster_One/FasterOne-Regular.ttf) ;
+    font-family: "titleFont";
+}
+.title{
+    font-family: 'titleFont';
+    font-size: 50px;
+}
+
+body{
+    background-image: url("retro-8-bit-pixel-white-clouds-on-blue-animated-background-free-video.jpg");
+    border: 10px;
+    border-style: dotted;
+    border-color:blue;
+}
+
+.right{
+    float: right;
+    width: 25%;
+    font-weight:900;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.left{
+    float: left;
+    width: 10%;
+    padding-left: 300px;
+}
+
+@media (min-width: 1000px){
+    body{
+        background-color: tomato;
+    }
+}
