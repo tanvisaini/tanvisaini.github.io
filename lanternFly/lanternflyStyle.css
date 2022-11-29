@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    cursor: url("tall-laceup-combat-boot-stomping-260nw-200936966.jpg\ copy.png"), auto;
+  }
+  
+  @font-face{
+    font-family:titleFont;
+    src: url('SuperMario256-2.ttf')
+  }
+  
+  .flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-style: dotted;
+    cursor: url("tall-laceup-combat-boot-stomping-260nw-200936966.jpg\ copy.png"), auto;
+  
+  }
+  
+  .title, h{
+    color: red;
+    font-family: titleFont;
+    text-align: center;
+    font-size: 50px;
+    cursor: url("tall-laceup-combat-boot-stomping-260nw-200936966.jpg\ copy.png"), auto;
+  }
+  
+  .small, p{
+    font-family:titleFont;
+    font-size: 25px;
+    cursor: url("tall-laceup-combat-boot-stomping-260nw-200936966.jpg\ copy.png"), auto;
+  }
+  
+  #btn{
+    cursor: url("tall-laceup-combat-boot-stomping-260nw-200936966.jpg\ copy.png"), auto;
+    background-size: cover; 
+    width: 400px;
+    background: none;
+    border:none;
+  }
+  

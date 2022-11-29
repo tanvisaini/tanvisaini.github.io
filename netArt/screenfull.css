@@ -32,6 +32,11 @@ body{
     padding-left: 300px;
 }
 
+.left:hover{
+    rotate:180;
+    float: right;
+}
+
 @media (min-width: 1000px){
     body{
         background-color: tomato;
