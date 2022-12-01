@@ -1,0 +1,106 @@
+@font-face {
+    font-family: quote;
+    src: url('Inconsolata-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face{
+    font-family: scary;
+    src: url('RubikMicrobe-Regular.ttf')
+}
+
+#noise{
+    font-family: scary;
+    overflow-wrap: break-word;
+}
+
+#btn{
+    font-size: 45px;
+    font-family: quote;
+}
+
+p{
+    font-family: quote;
+    text-align: center;
+}
+
+.above{
+    animation: 3s shiftDown;
+    padding: 0px 0px 50px 0px;
+}
+
+.below{
+    animation: 3s shiftUp;
+    padding: 0px 0px 50px 0px;
+}
+
+.infront{
+    animation: 3s front;
+    text-align: center;
+}
+
+.behind{
+    animation: 3s behind;
+    text-align: end;
+}
+
+.right{
+    animation: 3s right;
+}
+
+.left{
+    animation: 3s left;
+}
+
+@keyframes shiftDown {
+    from{
+        transform: translateY(0%)
+    }
+    to{
+        transform: translateY(100%)
+    }
+}
+
+@keyframes shiftUp{
+    from{
+        transform: translateY(100%)
+    }
+    to{
+        transform: translateY(10%)
+    }
+}
+
+@keyframes front {
+    from{
+        font-size:x-large;
+    }
+    to{
+        font-size:medium;
+    }
+}
+
+@keyframes behind {
+    from{
+        font-size: smaller;
+    }
+    to{
+        font-size: larger;
+    }
+}
+
+@keyframes right {
+    from{
+        transform: translateX(100%)
+    }
+    to{
+        transform: translateX(0%)
+    }
+}
+
+@keyframes left {
+    from{
+        transform: translateX(0%)
+    }
+    to{
+        transform: translateX(90%)
+    }
+}
