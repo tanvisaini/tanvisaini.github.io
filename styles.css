@@ -1,6 +1,6 @@
 *{
-    /* background-color: #f0ede1; */
-    /* background-image: url(assests/Juxtapoz\ Magazine\ -\ Everyday\ Drawings\ by\ Janice\ Wu.jpg); */
+    padding: none;
+    margin: none;
 }
 
 @font-face {
@@ -13,6 +13,12 @@
     font-family: "title";
     src: url(assests/DS-DIGII.TTF);
 }
+
+@font-face {
+    font-family: fac;
+    src: url('aAnotherTag.ttf');
+}
+
 
 ul li{
     display: inline;
@@ -37,13 +43,16 @@ p{
 
 /* Home Page */
 .title{
-    font-family: "title";
+    font-family: fac;
+    font-size: 100px;
+    padding: 0px 0px 0px 30px;
 }
 
 .folder1{
     text-align: center;
     font-family: "Nav";
     text-decoration: none;
+
 }
 
 .folder2{
@@ -62,7 +71,6 @@ p{
     padding: 15px;
     font-size: 20px;
 }
-
 
 .lips{
     margin: 10px;

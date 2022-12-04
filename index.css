@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Nav";
+    src: url(assests/Mogen-Bold.ttf);
+    font-weight: light;
+}
+
+@font-face {
+    font-family: "title";
+    src: url(assests/DS-DIGII.TTF);
+}
+
+@font-face {
+    font-family: fac;
+    src: url('aAnotherTag.ttf');
+}
+
+/* Home Page */
+.title{
+    font-family: fac;
+    font-size: 100px;
+    padding: 0px 0px 0px 30px;
+    color: #515724;
+}
+
+.options{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.folder1{
+    text-align: center;
+    font-family: "Nav";
+    text-decoration: none;
+}
+
+.folder1:hover{
+    opacity: 50%;
+}
+
+.folder2{
+    text-align: center;
+    font-family: "Nav";
+}
+
+.folder2:hover{
+    opacity: 50%;
+}
+
+.folder3{
+    text-align: center;
+    font-family: "Nav";
+    text-decoration: none;
+    width: 30%;
+    padding: 0px;
+}
+
+.folder3:hover{
+    opacity: 50%;
+}
