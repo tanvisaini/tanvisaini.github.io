@@ -8,31 +8,20 @@
     <title>home eavesdrop</title>
 </head>
 <body>
+    <section class="showcase">
     <div class= "nav" >   
         <img src="records.jpg"> 
         <div> 
-            <h1> Eavesdrop </h1>
+            <a class='backTitle' href="EavesdropIndex.html"> <h1> eavesdrop </h1> </a>
             <p class="rotate"> your music persona</p>
         </div>
+        <div class="toggle"></div>
     </div>
 
-        <!-- <p> what is your top mix?</p>
-        <button id="hiphop"> hip-hop </button>
-        <button id="pop"> pop </button>
-        <button id="rnb"> rnb </button>
-        <button id="house"> house </button>
-
-        <p> which one era do you like </p>
-        <button id="90s"> 90s </button>
-        <button id="2000s"> 2000s </button>
-        <button id="70s"> 70s </button>
-        <button id="2010s"> 2010s </button>
-<p></p>
-        <button id="show"> show </button>
-        <p id="answer"> </p> -->
+    
 
         <div class="quiz-container">
-            <div class="title">Personality Quiz</div>
+            <div class="title">Music Trivia</div>
             <div id="question" class="question"></div>
             <label class="option">
                 <input type="radio" name="option" value="1" />
@@ -56,9 +45,19 @@
         <div class="result">
     
         </div>
+        </section>
+
+        <div class="menu">
+            <ul>
+              <li><a href="menu.html"> About </a></li>
+              <li><a href="musicSimulator.html">Simulator</a></li>
+              <li><a href="musicTrivia.html">Trivia</a></li>
+            </ul>
+          </div>
     
 
     <script src="questions.js"></script>
+    <script src="menu.js"></script>
     <script src="eavesdropspotify2.js"></script>
 </body>
 </html>
