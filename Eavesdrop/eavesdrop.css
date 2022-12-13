@@ -8,6 +8,11 @@
     src: url('MAROLA__.TTF');
 }
 
+@font-face {
+  font-family: navFont;
+  src: url('pricedown\ bl.otf');
+}
+
 #ripple{
     height: 100%;
 }
@@ -45,7 +50,7 @@ a{
     font-size: 20px;
 }
 
-.nav{
+.header{
     display: flex;
     justify-content: right;
     padding-right: 30px;
@@ -92,8 +97,7 @@ a{
   right: 300px;
 }
 
-.menu
-{
+.menu{
   position: absolute;
   top: 0;
   right: 0;
@@ -102,10 +106,12 @@ a{
   display: none;
   justify-content: center;
   align-items: center;
+  font-family: navFont;
 }
 
 .menu.active{
   display:flex;
+  background-color: #d2c29d;
 }
 .menu ul
 {
@@ -114,16 +120,17 @@ a{
 .menu ul li
 {
   list-style: none;
+  padding: 30px;
 }
 .menu ul li a
 {
   text-decoration: none;
-  font-size: 24px;
-  color: #111;
+  font-size: 40px;
+  color: #7e745e;
 }
 .menu ul li a:hover
 {
-  color: purple; 
+  color: white; 
 }
 
   .title {
