@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    cursor: url('cursor.cur'), auto;
 }
 
 @font-face {
@@ -19,12 +20,18 @@
     src: url('aAnotherTag.ttf');
 }
 
+body{
+    background-image: url(brick.jpg);
+    background-repeat: stretch;
+}
+
 /* Home Page */
 .title{
     font-family: fac;
-    font-size: 100px;
-    padding: 0px 0px 0px 30px;
-    color: #515724;
+    font-size: 70px;
+    color: white;
+    text-align: right;
+    padding: 0px 30px 0px 0px;
 }
 
 .options{
@@ -33,33 +40,18 @@
     flex-wrap: wrap;
 }
 
-.folder1{
+.folder{
     text-align: center;
-    font-family: "Nav";
+    background-image: none;
+}
+
+a{
     text-decoration: none;
-}
-
-.folder1:hover{
-    opacity: 50%;
-}
-
-.folder2{
-    text-align: center;
     font-family: "Nav";
+    color: white;
+    font-size: 50px;
 }
 
-.folder2:hover{
-    opacity: 50%;
-}
-
-.folder3{
-    text-align: center;
-    font-family: "Nav";
-    text-decoration: none;
-    width: 30%;
-    padding: 0px;
-}
-
-.folder3:hover{
-    opacity: 50%;
+.folder:hover{
+    transform: scale(1.5);
 }

@@ -1,0 +1,59 @@
+.top{
+    display: flex;
+}
+
+@font-face {
+    font-family: newspaper;
+    src: url('Old\ Newspaper\ Font.ttf');
+}
+
+.header{
+    display: flex;
+    font-family: newspaper;
+    font-size: 40px;
+}
+
+.header2 ul li{
+    display: block;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: green;
+    font-size:larger;
+}
+
+p{
+    font-size: 19px;
+}
+
+.lips{
+    margin: 10px;
+}
+
+.header{
+    position: relative;
+}
+
+.headerText{
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background: none;
+}
