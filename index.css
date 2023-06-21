@@ -28,16 +28,23 @@ body{
 /* Home Page */
 .title{
     font-family: fac;
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     text-align: right;
     padding: 0px 30px 0px 0px;
+}
+
+.blurb{
+    color: white; 
+    text-align: center;
+
 }
 
 .options{
     display: flex; 
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 65px;
 }
 
 .folder{
